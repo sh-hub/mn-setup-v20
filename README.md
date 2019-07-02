@@ -28,10 +28,10 @@ sudo ufw enable
 You will be prompted with "Yes or no". type y and press enter
 
 ```bash
-sudo 
+sudo ufw default deny
 ```
 
-start install the requirements on VPS:
+start install on VPS:
 ```bash
 sudo apt-get upgrade -y
 ```
